@@ -6,7 +6,7 @@
     "prepare": "pnpm exec simple-git-hooks",
     "dev": "astro dev",
     "build": "astro check && astro build && pagefind --site dist",
-    "preview": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs",
+    "preview": "astro preview",
     "astro": "astro",
     "lint": "prettier --write .",
     "new-friend": "node scripts/new-friend.js",
