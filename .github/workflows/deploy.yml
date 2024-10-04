@@ -35,12 +35,17 @@ jobs:
       - name: Install step
         run: "pnpm install"
 
+
       - name: Build step
         run: "pnpm build"
 
+
+      # - name: Static Deployment
+      #   run: deployctl deploy --project="hoshiki-astro-deno-16" https://jsr.io/@std/http/1.0.7/file_server.ts
+      # deployctl deploy --project=<your-preferred-project-name> https://jsr.io/@std/http/1.0.7/file_server.ts
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "hoshiki-astro-deno-16"
-          entrypoint: "index.html"
+          # entrypoint: "index.html"
           root: "dist"
