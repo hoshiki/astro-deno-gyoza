@@ -27,6 +27,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
+      - name: Install Pnpm
+        uses: actions/setup/pnpm@v3
+        with:
+          version: 9.12.0
 
       - name: Install step
         run: "pnpm install"

@@ -17,10 +17,13 @@ import { site } from './src/config.json'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import swup from '@swup/astro'
+import deno from '@deno/astro-adapter'
 
 // https://astro.build/config
 export default defineConfig({
   site: site.url,
+  // output: 'server',
+  // adapter: deno(),
   integrations: [
     tailwind(),
     react(),
