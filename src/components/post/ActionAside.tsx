@@ -110,20 +110,20 @@ function DonateButton() {
   const { present } = useModal()
 
   const openDonate = () => {
-    // present({
-    //   content: <DonateContent />,
-    // })
+    present({
+      content: <DonateContent />,
+    })
   }
 
   return (
-    <button
-      type="button"
-      aria-label="Donate to author"
-      className="size-6 text-xl leading-none hover:text-accent"
-      onClick={() => openDonate()}
-    >
-      <i className="iconfont icon-user-heart"></i>
-    </button>
+    // <button
+    //   type="button"
+    //   aria-label="Donate to author"
+    //   className="size-6 text-xl leading-none hover:text-accent"
+    //   onClick={() => openDonate()}
+    // >
+    //   <i className="iconfont icon-user-heart"></i>
+    // </button>
   )
 }
 
