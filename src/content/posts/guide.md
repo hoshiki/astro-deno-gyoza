@@ -7,8 +7,9 @@ category: 教程
 tags: [Astro, Gyoza]
 sticky: 1
 ---
+![Img](https://s2.loli.net/2024/10/12/dnSetwYbuMfkh35.png)
+![Img](https://s2.loli.net/2024/10/12/LzwidhNu6jEY94r.png)
 
-![Img](/assets/img-20241012090031.png)
 
 
 ## 前置条件
