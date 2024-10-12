@@ -115,7 +115,7 @@ function DonateButton() {
     })
   }
 
-  return (
+  return (<></>
     // <button
     //   type="button"
     //   aria-label="Donate to author"
