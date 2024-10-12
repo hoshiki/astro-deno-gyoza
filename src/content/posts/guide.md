@@ -8,6 +8,9 @@ tags: [Astro, Gyoza]
 sticky: 1
 ---
 
+![Img](/assets/img-20241012090031.png)
+
+
 ## 前置条件
 
 - node 版本 >= 18.18.0
