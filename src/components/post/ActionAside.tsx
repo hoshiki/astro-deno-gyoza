@@ -110,9 +110,9 @@ function DonateButton() {
   const { present } = useModal()
 
   const openDonate = () => {
-    present({
-      content: <DonateContent />,
-    })
+    // present({
+    //   content: <DonateContent />,
+    // })
   }
 
   return (
